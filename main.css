@@ -1,38 +1,79 @@
-html {
+#title {
   background: url(comp-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-body {
-  color: white;
+  min-height: 750px;
+  border-bottom: 30px solid green;
+  margin: 0;
+  padding: 0;
 }
 
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+}
+
+#bio {
+  background: url(biobg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  min-height: 750px;
+  border-bottom: 30px solid green;
+}
+
+#bio h1 {
+  font-size: 3em;
+}
+
+#portfolio {
+  background: url(portfoliobg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  min-height: 750px;
+  border-bottom: 30px solid green;
+}
+
+#portfolio h1 {
+  font-size: 3em;
+}
+
+.bioinfo {
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  margin: 0 250px;
+}
+body {
+  color: white;
+  margin: 0;
+}
+
+.screenshots {
+  border: thin solid yellow;
+  max-width: 300px;
+  list-style-type: none;
+  margin: auto;
+}
+
+.screenshots img {
+  max-width: 300px;
 }
 
 .name {
   padding-top: 175px;
-  font-family: 'Arvo', serif;
-  font-weight: 400;
   font-size: 3em;
 }
 
-.subname {
-  font-family: 'Arvo', serif;
-  font-weight: 400;
-}
-
 .nav-links {
-  max-width: 800px;
   margin: 0 auto;
   text-align: right;
-  padding: 0;
+  padding: 20px;
 }
 
 .nav-link {
@@ -51,4 +92,9 @@ h2 {
 
 .icon {
   max-width: 4em;
+}
+
+.scroll-links a {
+  text-decoration: none;
+  color: white;
 }
