@@ -1,0 +1,54 @@
+html {
+  background: url(comp-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color: white;
+}
+
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.name {
+  padding-top: 175px;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+.subname {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+}
+
+.nav-links {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+  padding: 0;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 4em;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link img:hover {
+  opacity: .5;
+}
+
+.icon {
+  max-width: 4em;
+}
