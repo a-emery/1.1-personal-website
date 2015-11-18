@@ -4,8 +4,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 750px;
-  border-bottom: 30px solid green;
+  height: 105vh;
   margin: 0;
   padding: 0;
 }
@@ -17,14 +16,14 @@ h3 {
   text-align: center;
   font-family: 'Arvo', serif;
   font-weight: 400;
+  margin-top: 0;
 }
 
 #bio {
   background: url(biobg.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  min-height: 750px;
-  border-bottom: 30px solid green;
+  height: 105vh;
 }
 
 #bio h1 {
@@ -35,8 +34,7 @@ h3 {
   background: url(portfoliobg.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  min-height: 750px;
-  border-bottom: 30px solid green;
+  height: 105vh;
 }
 
 #portfolio h1 {
@@ -49,6 +47,7 @@ h3 {
   font-weight: 400;
   margin: 0 250px;
 }
+
 body {
   color: white;
   margin: 0;
@@ -71,9 +70,11 @@ body {
 }
 
 .nav-links {
+  position: fixed;
+  top: 20px;
+  right: 10px;
   margin: 0 auto;
   text-align: right;
-  padding: 20px;
 }
 
 .nav-link {
